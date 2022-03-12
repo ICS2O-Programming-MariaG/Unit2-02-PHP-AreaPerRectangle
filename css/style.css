@@ -1,0 +1,33 @@
+/* Created by: MariaG
+* Created on: March 12, 2022
+* This CSS file defines the style for index.php
+* ICS2O-Unit2-02-PHP-AreaPerRectangle
+*/
+
+h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #aefec7;
+}
+
+body {
+  background-color: #e6fefb;
+}
+
+.pink {
+  background-color: #fedcf6;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+.yellow {
+  background-color: #ffffb1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  padding: 20px;
+}
