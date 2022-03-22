@@ -7,25 +7,21 @@
 h1 {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 40px;
+  margin-top: 5%;
   padding: 20px;
   text-align: center;
+  background-color: #a9d4fb;
+}
+
+.green {
   background-color: #aefec7;
-}
-
-body {
-  background-color: #e6fefb;
-}
-
-.pink {
-  background-color: #fedcf6;
   margin-left: 10%;
   margin-right: 10%;
   padding: 20px;
 }
 
-.yellow {
-  background-color: #ffffb1;
+.pink {
+  background-color: #fedcf6;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
