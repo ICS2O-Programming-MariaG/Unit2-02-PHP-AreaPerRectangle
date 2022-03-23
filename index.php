@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Area and Perimeter Rectangle in PHP</title>
+    <title>Area and Perimeter Rectangle in PHP - Maria Goemans</title>
     <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Code for the favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
   </head>
   <body>
     <script>
