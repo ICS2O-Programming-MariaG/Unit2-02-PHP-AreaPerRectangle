@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Area and Perimeter Rectangle in PHP - Maria Goemans</title>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Calculating area and perimeter in php">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Maria G">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Code for the favicon -->
@@ -9,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
+    <title>Area and Perimeter Rectangle in PHP - Maria Goemans</title>
   </head>
   <body>
     <script>
