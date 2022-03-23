@@ -26,6 +26,11 @@
         // this function calculates the perimeter of the rectangle
         document.getElementById('perimeter').innerHTML = 'The perimeter is ' + (6 * 2 + 2 * 2) + 'cm' + '.'
       }
+      function Hide() {
+        // this function hides the previous calculations
+        document.getElementById('perimeter').innerHTML = 'The perimeter is?'
+        document.getElementById('area').innerHTML = 'The area is?'
+      }
     </script>
     <?php echo '<h1>Calculating the Area and Perimeter of a Rectangle in PHP </h1>'; ?>
     <!-- Green background for text -->
@@ -40,6 +45,7 @@
       <br>
       <button onclick="AreaClicked()"> Calculate area</button>
       <button onclick="PerimeterClicked()">Calculate perimeter</button>
+      <button onclick="Hide()">Reset</button>
     </div>
   </body>
 </html>
