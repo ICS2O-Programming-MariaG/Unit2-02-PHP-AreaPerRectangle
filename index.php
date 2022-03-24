@@ -17,21 +17,8 @@
     <title>Area and Perimeter Rectangle in PHP - Maria Goemans</title>
   </head>
   <body>
-    <script>
-      function AreaClicked() {
-        // this function calculates the area of the rectangle
-        document.getElementById('area').innerHTML = 'The area is ' + (6 * 2) + 'cm' + '2'.sup(2) + '.'
-      }
-      function PerimeterClicked() {
-        // this function calculates the perimeter of the rectangle
-        document.getElementById('perimeter').innerHTML = 'The perimeter is ' + (6 * 2 + 2 * 2) + 'cm' + '.'
-      }
-      function Hide() {
-        // this function hides the previous calculations
-        document.getElementById('perimeter').innerHTML = 'The perimeter is?'
-        document.getElementById('area').innerHTML = 'The area is?'
-      }
-    </script>
+    <!-- Link to Javascript file -->
+    <script src="./js/script.js"></script>
     <?php echo '<h1>Calculating the Area and Perimeter of a Rectangle in PHP </h1>'; ?>
     <!-- Green background for text -->
     <div class="green">
@@ -40,12 +27,22 @@
     </div>
     <!-- Another background - this one pink -->
     <div class="pink">
+      <?php echo '<h3>Calculating the Area and Perimeter of a Rectangle using Javascript</h3>' ?>
       <div id="area">The area is?</div>
       <div id="perimeter">The perimeter is?</div>
       <br>
       <button onclick="AreaClicked()"> Calculate area</button>
       <button onclick="PerimeterClicked()">Calculate perimeter</button>
       <button onclick="Hide()">Reset</button>
+      <?php echo '<h3>Calculating the Area and Perimeter of a Rectangle using PHP</h3>' ?>
+      <?php 
+  			$length = 4;  
+  		 	$width = 3; 
+  			echo "<p>Length = $length cm<br>Width = $width cm</p>"; 
+      ?>
+      <?php 
+		   echo "<p>The area of a rectangle with dimensions $length cm x $width cm = " . ($length * $width) . "cm<sup>2</sup>.</p>";  
+		  ?>
     </div>
   </body>
 </html>
