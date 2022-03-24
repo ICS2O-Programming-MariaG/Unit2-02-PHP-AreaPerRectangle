@@ -35,6 +35,7 @@
       <button onclick="PerimeterClicked()">Calculate perimeter</button>
       <button onclick="Hide()">Reset</button>
       <?php echo '<h3>Calculating the Area and Perimeter of a Rectangle using PHP</h3>' ?>
+      <!-- Calculations and variables in PHP -->
       <?php 
   			$length = 4;  
   		 	$width = 3; 
